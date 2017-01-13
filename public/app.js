@@ -1,4 +1,4 @@
-angular.module('app',["ui-router"])
+angular.module('app',["ui.router"])
   .config(function ($stateProvider, $urlRouterProvider) {
 
     $urlRouterProvider.otherwise('/');
@@ -6,11 +6,11 @@ angular.module('app',["ui-router"])
     $stateProvider
       .state('home',{
         url: "/",
-        templateUrl: "./templates/home"
+        templateUrl: "./templates/home.html"
       })
       .state('friends',{
         url: "/friend/:github_username",
-        templateUrl: "./templates/friends"
+        templateUrl: "./templates/friends.html"
       })
       .state('login',{
         url: "/auth/github",
