@@ -1,0 +1,26 @@
+{
+  "name": "coderfriends",
+  "version": "1.0.0",
+  "description": "CoderFriends",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "passport": "^0.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjax13/coderFriends.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bjax13/coderFriends/issues"
+  },
+  "homepage": "https://github.com/bjax13/coderFriends#readme"
+}
